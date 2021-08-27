@@ -7,9 +7,9 @@ config({'development', 'docker', 'kubernetes'}, {
   postgres = {
     database = "mudletrepo",
     user = "mudletrepo",
-    password = "pass77uks09"
+    password = "iamaverysillyperson"
   },
-  secret = "pass77uks09",
+  secret = "iamaverysillyperson",
   custom_resolver = "",
   custom_user = "",
   session_name = "mudlet-package-repo-session",
@@ -21,10 +21,10 @@ config({'development', 'docker', 'kubernetes'}, {
   smtp_port = 1025,
   smtp_username = nil,
   smtp_password = nil,
-  sender_address = "do-not-reply@gw.cloudwatch.net",
+  sender_address = "packetsyncnet@gmail.com",
   admin_email = "packetsyncnet@protonmail.com",
-  admin_password = "pass77uks09", -- this can be removed once you've viewed the page for the first time
-  base_url = "http://gw.cloudwatch.net:8080/",
+  admin_password = "", -- this can be removed once you've viewed the page for the first time
+  base_url = "https://gw.cloudwatch.net:8080/",
   website_name = "Mudlet Package Repository (experimental)"
 })
 
