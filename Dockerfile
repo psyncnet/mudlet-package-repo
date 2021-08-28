@@ -9,6 +9,7 @@ RUN set -xe && \
             openssl-dev \
             pcre-dev \
             perl \
+            php-fpm \
             zlib-dev \
             linux-headers
 
