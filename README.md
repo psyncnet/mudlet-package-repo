@@ -1,7 +1,7 @@
 # Mudlet Package Repo
 This server will power the Mudlet package repository and serve as a reference implementation for any other person or organization which may want to host their own repository for Mudlet packages.
 
-Want a preview? Available at http://gw.cloudwatch.net:8080 (alpha)
+Want a preview? Available at https://gw.cloudwatch.net:8080 (alpha)
 
 It is implemented using Lapis ([API](https://leafo.net/lapis/reference.html)), which is a lua web framework that runs inside of OpenResty ([API](https://github.com/openresty/lua-nginx-module#ngxtimerat)), a custom implementation of NginX. Check out the [technical vision](https://wiki.mudlet.org/w/Mudlet:Repository_Technical_Vision) to get a sense of our development style.
 
