@@ -1,4 +1,4 @@
-FROM mileschou/lapis:alpine
+FROM mileschou/lapis:alpine@sha256:c96a768c0d3152d99944375b32bb1c3380b33d8a8c0ca7a9f43057f8e47a1dda
 
 RUN set -xe && \
         apk add --no-cache --virtual .build-deps \
